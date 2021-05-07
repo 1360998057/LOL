@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family: '腾祥麦黑简';
+    src: url("腾祥麦黑简.TTF");
+}
+/*其中fontName替换为你的字体名称*/
+h2{font-family: 腾祥麦黑简}

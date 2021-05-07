@@ -1,0 +1,59 @@
+.fixed {
+     width: 150px;
+     height: 300px;
+     position: fixed;
+     top: 200px;
+     right:0;
+     opacity: 0;
+     background-color: rgba(114, 100, 60, 0.8);
+
+ }
+
+.fixed-text {
+    width: 150px;
+    height:300px;
+    position: fixed;
+    top: 200px;
+    right:-150px;
+}
+
+.fixed-text ul li {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.fixed-text ul li.special {
+    color: rgb(251, 232, 139);
+    font-weight: bold;
+}
+
+.fixed-text ul li:hover {
+     color: rgb(251, 232, 139);
+ }
+.fixed-text li.on {
+    color: rgb(251, 232, 139);
+}
+
+.fixed-text img {
+    height: 40px;
+    width: 40px;
+    line-height: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+}
+
+.fixed-text .qe {
+    top: 64px;
+    width: 50px;
+    left: -6px;
+    height: 50px;
+    background-image: url("../images/icon/企鹅.png");
+    position: absolute;
+}

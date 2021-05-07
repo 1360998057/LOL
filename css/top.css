@@ -1,0 +1,51 @@
+.top {
+    height: 80px;
+    line-height: 80px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    opacity: 0;
+}
+
+.top .icon {
+    background-image: url("../images/icon/icon.png");
+    float: left;
+    width: 167px;
+    height: 60px;
+    margin-right: 400px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+
+
+}
+
+.top ul li {
+    float: left;
+    width: 150px;
+    height: 80px;
+    position: relative;
+}
+
+.top ul li a {
+    width: 150px;
+    height: 80px;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.top ul li:hover a {
+    color: #ffec8c;
+}
+
+
+.top ul li span.cx {
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    width: 50px;
+    height: 2px;
+    background-color: #ffec8c;
+    float: left;
+    display: none;
+}
