@@ -1,0 +1,1042 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>云顶之奕攻略</title>
+    <link href="./css/font.css" rel="stylesheet">
+    <link href="./css/init.css" rel="stylesheet">
+    <link href="./css/footer.css" rel="stylesheet">
+    <link href="./css/top.css" rel="stylesheet">
+    <link href="./css/homepage.css" rel="stylesheet">
+    <link href="./css/fixed.css" rel="stylesheet">
+    <link href="./css/bg.css" rel="stylesheet">
+    <link href="./css/bg2.css" rel="stylesheet">
+    <link href="./css/bg3.css" rel="stylesheet">
+    <link href="./css/bg4.css" rel="stylesheet">
+    <link href="./css/zongding.css" rel="stylesheet">
+    <link href="images/icon/lol.ico" rel="shortcut icon">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/shux.js"></script>
+    <script src="js/Hero.js"></script>
+    <script src="js/Synthesis.js"></script>
+    <script src="js/Basics.js"></script>
+    <script src="js/Fetters.js"></script>
+    <script src="js/zr.js"></script>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .box-center {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .page {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .w1200 {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .qiang1 {
+            height: 60px;
+            width: 100%;
+        }
+
+
+        .Accessory-window {
+            width: 70%;
+            height: 70%;
+            position: fixed;
+            margin: 0 auto;
+            background-color: rgb(39, 55, 93);
+            top: 17%;
+            left: 15%;
+            color: #bbb6f2;
+            z-index: 999;
+            display: none;
+        }
+
+        .Accessory-window .esc {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background-color: rgb(39, 55, 93);
+            top: -50px;
+            right: 0;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .Accessory-window h3 {
+            text-align: center;
+            color: #fff573;
+            font-size: 30px;
+            margin-top: 10px;
+            letter-spacing: 6px;
+        }
+
+        .Accessory-window ul {
+            margin-top: 20px;
+        }
+
+        .Accessory-window ul li {
+            font-size: 16px;
+            color: wheat;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 10px;
+            line-height: 25px;
+            text-indent: 2em;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box-center" id="box-center">
+    <div class="page homepage"> <!--首页-->
+        <!--nav-->
+        <div class="top" id="top">
+            <div class="w1200">
+                <a href="#">
+                    <div class="icon"></div>
+                </a>
+                <ul>
+                    <li>
+                        <a href="#">英雄资料</a>
+                        <span class="cx"></span>
+                    </li>
+                    <li>
+                        <a href="#">装备资料</a>
+                        <span class="cx"></span>
+                    </li>
+                    <li>
+                        <a href="#">羁绊资料</a>
+                        <span class="cx"></span>
+                    </li>
+                    <li>
+                        <a href="#">阵容推荐</a>
+                        <span class="cx"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="homepage-center"></div>
+    </div>
+    <!--英雄-->
+    <div class="bg">
+        <div class="Hero" id="Hero">
+            <div class="Hero-Introduction-nav">
+                <ul>
+                    <li class="yi"><img alt="" src="images/icon/白1.png" width="200"></li>
+                    <li class="er"><img alt="" src="images/icon/黄2.png" width="200"></li>
+                    <li class="san"><img alt="" src="images/icon/黄3.png" width="200"></li>
+                </ul>
+            </div>
+            <div class="Hero-Introduction">
+                <div class="Hero-Introduction-icon">
+                    <ul>
+                        <li><img alt="" src="images/jiban/c1.png"></li>
+                        <li><img alt="" src="images/jiban/2.png"></li>
+                        <li><img alt="" src="images/jiban/3.png"></li>
+                        <li><img alt="" src="images/jiban/4.png"></li>
+                        <li><img alt="" src="images/jiban/5.png"></li>
+                        <li><img alt="" src="images/jiban/6.png"></li>
+                        <li><img alt="" src="images/jiban/7.png"></li>
+                        <li><img alt="" src="images/jiban/8.png"></li>
+                        <li><img alt="" src="images/jiban/9.png"></li>
+                        <li><img alt="" src="images/jiban/10.png"></li>
+                        <li><img alt="" src="images/jiban/11.png"></li>
+                        <li><img alt="" src="images/jiban/12.png"></li>
+                        <li><img alt="" src="images/jiban/13.png"></li>
+                        <li><img alt="" src="images/jiban/14.png"></li>
+                    </ul>
+                </div>
+                <div class="Hero-attribute">
+                    <div class="Hero-attribute-top" id="HeroTop">
+                        <ul>
+                            <li>
+                                <img alt="" src="images/yxtx/5.png">
+                                <span>伊芙琳</span>
+                            </li>
+                            <li>
+                                <img alt="" src="images/yxtx/3.png">
+                                <span>亚托克斯</span>
+                            </li>
+                            <li>
+                                <img alt="" src="images/yxtx/4.png">
+                                <span>布兰德</span>
+                            </li>
+                            <li>
+                                <img alt="" src="images/yxtx/6.png">
+                                <span>韦鲁斯</span>
+                            </li>
+                            <li>
+                                <img alt="" src="images/yxtx/8.png">
+                                <span>伊莉斯</span>
+                            </li>
+                            <li>
+                                <img alt="" src="images/yxtx/9.png">
+                                <span>斯维因</span>
+                            </li>
+                            <li>
+                                <img alt="" src="images/yxtx/7.png">
+                                <span>莫甘娜</span>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="Hero-attribute-center" id="Herocenter">
+                        <img alt="" class="images" src="images/yxyk/5.jpg ">
+                        <div class="Hero-attribute-center-abs">
+                            <h2>痛苦之拥</h2>
+                            <span class="title">伊芙琳</span>
+                            <div class="jin">
+                                <span class="jin-name">最终抚慰：</span>
+                                <span class="jin-shouming">伊芙琳对距离她最近的三个敌人造成伤害并传送到远离他们的位置。对生命值不满的敌人造成更高的伤害。</span>
+                                <span class="jin-sh">斩杀线：65%HP 技能伤害：200 / 300 / 400</span>
+                            </div>
+
+                            <div class="table">
+                                <ul class="yi">
+                                    <li>生命值:700</li>
+                                    <li>魔抗:20</li>
+                                    <li>攻击速度:0.6</li>
+                                    <li>护甲:20</li>
+                                    <li>攻击力:70</li>
+                                    <li>攻击距离:1</li>
+                                </ul>
+                                <ul class="er">
+                                    <li>生命值:990</li>
+                                    <li>魔抗:20</li>
+                                    <li>攻击速度:0.6</li>
+                                    <li>护甲:20</li>
+                                    <li>攻击力:126</li>
+                                    <li>攻击距离:1</li>
+                                </ul>
+                                <ul class="san">
+                                    <li>生命值:1980</li>
+                                    <li>魔抗:20</li>
+                                    <li>攻击速度:0.6</li>
+                                    <li>护甲:25</li>
+                                    <li>攻击力:252</li>
+                                    <li>攻击距离:1</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--装备内容-->
+    <div class="bg2" id="equipment">
+        <div class="w1200">
+            <div class="qiang1"></div>
+            <h2>装备资料</h2>
+            <div class="zhuangb">
+                <div class="jicu">
+                    <ul>
+                        <li>
+                            <img alt="" src="images/zb/5.png">
+                            <span class="span">暴风大剑</span>
+                            <span class="jx">+15点攻击力</span>
+                        </li>
+                        <li>
+                            <img alt="" src="images/zb/6.png">
+                            <span class="span">反曲之弓</span>
+                            <span class="jx">+20%攻速</span></li>
+                        <li>
+                            <img alt="" src="images/zb/10.png">
+                            <span class="span">无用大棒</span>
+                            <span class="jx">+20%技能伤害</span>
+                        </li>
+                        <li>
+                            <img alt="" src="images/zb/9.png">
+                            <span class="span">女神之泪</span>
+                            <span class="jx">+20法力值</span></li>
+                        <li>
+                            <img alt="" src="images/zb/8.png">
+                            <span class="span">巨人腰带</span>
+                            <span class="jx">+200生命值</span></li>
+                        <li>
+                            <img alt="" src="images/zb/7.png">
+                            <span class="span">锁子甲</span>
+                            <span class="jx">+20护甲</span></li>
+                        <li>
+                            <img alt="" src="images/zb/11.png">
+                            <span class="span">负极斗篷</span>
+                            <span class="jx">+20魔抗</span></li>
+                        <li>
+                            <img alt="" src="images/zb/12.png">
+                            <span class="span">金铲铲</span>
+                            <span class="jx">合成特殊道具</span>
+                        </li>
+                        <li>
+                            <img alt="" src="images/zb/1.png">
+                            <span class="span">暴击拳套</span>
+                            <span class="jx">+10%闪避+10%暴击率</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="center" id="zhuangbei">
+                    <div class="sanjiao"></div>
+                    <div class="hec">
+                        <ul>
+                            <li class="on"><img alt="" src="images/zb/53.png"></li>
+                            <li><img alt="" src="images/zb/54.png"></li>
+                            <li><img alt="" src="images/zb/15.png"></li>
+                            <li><img alt="" src="images/zb/47.png"></li>
+                            <li><img alt="" src="images/zb/20.png"></li>
+                            <li><img alt="" src="images/zb/18.png"></li>
+                            <li><img alt="" src="images/zb/43.png"></li>
+                            <li><img alt="" src="images/zb/42.png"></li>
+                            <li><img alt="" src="images/zb/22.png"></li>
+                        </ul>
+                    </div>
+                    <div class="xian">
+                        <i class="xiaosx2"></i>
+                    </div>
+                    <div class="xians" id="xians">
+                        <div class="right">
+                            <span class="hecheng">合成路径:</span>
+                            <img alt="" src="images/zb/5.png">
+                            <span class="jia">+</span>
+                            <img alt="" src="images/zb/5.png">
+                        </div>
+                        <div class="left">
+                            <img alt="" src="images/zb/53.png">
+                            <div class="text">
+                                <h1>死亡之刃</h1>
+                                <span>在击杀或助攻后，获得一层额外的15攻击力，持续到战斗结束（可无限叠加）。</span>
+                                <h3>攻击力+40</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom"></div>
+        </div>
+    </div>
+    <!--羁绊内容-->
+    <div class="bg3" id="Fetters">
+        <div class="w1200">
+            <div class="qiang1"></div>
+            <h2>羁绊资料</h2>
+            <div class="center">
+                <div class="left" id="scroll_bar">
+                    <div class="icon">
+                        <div class="icons" id="icons">
+                            <ul>
+                                <li>
+                                    <img alt="" src="images/quanquan/暗影.png">
+                                    <i></i>
+                                    <span>暗影</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/刺客.png">
+                                    <i></i>
+                                    <span>刺客</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/帝国.png">
+                                    <i></i>
+                                    <span>帝国</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/斗士.png">
+                                    <i></i>
+                                    <span>斗士</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/恶魔.png">
+                                    <i></i>
+                                    <span>恶魔</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/法师.png">
+                                    <i></i>
+                                    <span>法师</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/贵族.png">
+                                    <i></i>
+                                    <span>贵族</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/海盗.png">
+                                    <i></i>
+                                    <span>海盗</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/海克斯.png">
+                                    <i></i>
+                                    <span>海克斯</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/护卫.png">
+                                    <i></i>
+                                    <span>护卫</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/换形师.png">
+                                    <i></i>
+                                    <span>换形师</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/机器人.png">
+                                    <i></i>
+                                    <span>机器人</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/极地.png">
+                                    <i></i>
+                                    <span>极地</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/剑士.png">
+                                    <i></i>
+                                    <span>剑士</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/狂野.png">
+                                    <i></i>
+                                    <span>狂野</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/浪人.png">
+                                    <i></i>
+                                    <span>浪人</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/龙.png">
+                                    <i></i>
+                                    <span>龙</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/骑士.png">
+                                    <i></i>
+                                    <span>骑士</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/枪手.png">
+                                    <i></i>
+                                    <span>枪手</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/忍者.png">
+                                    <i></i>
+                                    <span>忍者</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/虚空.png">
+                                    <i></i>
+                                    <span>虚空</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/游侠.png">
+                                    <i></i>
+                                    <span>游侠</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/quanquan/元素使.png">
+                                    <i></i>
+                                    <span>元素使</span>
+                                </li>
+
+                                <li>
+                                    <img alt="" src="images/quanquan/约德尔.png">
+                                    <i></i>
+                                    <span>约德尔人</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="title" id="title">
+                        <div class="quan">
+                            <img alt="" src="images/zonghe/22.png">
+                        </div>
+                        <span>暗影</span>
+                    </div>
+                    <div class="xian"></div>
+
+                    <div class="font" id="Fetters-font">
+                        <div class="font-text">
+                            <span class="text">羁绊:</span>
+                            <span class="center2">(2)生命值降为100点</span>
+                        </div>
+                        <div class="font-text">
+                            <span class="text">效果:</span>
+                            <span class="center2">战斗开始诅咒一名敌人单位，将其生命值降低</span>
+                        </div>
+
+
+                        <div class="font-array" id="Fetters-array">
+                            <ul>
+                                <li>
+                                    <img alt="" src="images/yxtx/32.png">
+                                    <i></i>
+                                    <span>莫德凯撒</span>
+                                </li>
+                                <li>
+                                    <img alt="" src="images/yxtx/34.png">
+                                    <i></i>
+                                    <span>千珏</span>
+                                </li>
+                                <li><img alt="" src="images/yxtx/33.png">
+                                    <i></i>
+                                    <span>卡尔萨斯</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--阵容推荐-->
+    <div class="bg4" id="zr">
+        <h2>阵容推荐</h2>
+        <div class="center">
+            <div class="xs">
+                <ul class="zr_c">
+                </ul>
+            </div>
+            <div class="scroll">
+                <div class="bar"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--侧边导航条-->
+<div class="fixed" id="fixed"></div>
+<div class="fixed-text" id="fixed-text">
+    <ul>
+        <li class="special">首页</li>
+        <li>英雄资料</li>
+        <li>装备资料</li>
+        <li>羁绊资料</li>
+        <li>阵容推荐</li>
+    </ul>
+    <div class="qe"></div>
+</div>
+<div class="Blackcurtain"></div>
+<img alt="" class="img" height="800px" src="images/sc/img.jpg" width="1500px">
+<img alt="" class="xx" src="images/sc/xx.png">
+<div class="zongding">
+    <div class="center">
+    </div>
+</div>
+</body>
+<script src="js/Herojs.js"></script>
+<script src="js/zbJS.js"></script>
+<script src="js/zrJS.js"></script>
+<script src="js/FettsesJS.js"></script>
+<script>
+    window.onload=function () {
+        var $box_center = $('#box-center');
+
+        var idx = 0; //型号量
+        var Approach = []; //入场动画
+        var End = []; //出场动画
+
+        var $homepage_center = $('#box-center .homepage-center'); //主页图片
+        var $homepage_top = $('#box-center .top'); //主页导航条
+        var $fixed = $('#fixed'); //侧边导航
+        var $fixed2 = $('#fixed-text'); //侧边导航
+        var $fidexqe = $('#fixed-text .qe'); //企鹅
+        var $fidexli = $('#fixed-text li'); //li
+        var $Herotopli = $('#Hero .Hero-Introduction-nav li');
+        var $Hero__center = $('#Hero .Hero-Introduction');
+        var $equipmenth2 = $('#equipment h2');
+        var $equipmentcenter = $('#equipment .zhuangb');
+        var $Fetters = $('#Fetters h2');
+        var $Fetterscenter = $('#Fetters .center');
+        var $equipment_bottom = $('#equipment .bottom');
+        var $zrh2=$('#zr h2');
+        var $zrcnter=$('#zr .center');
+        $top_li = $('#top li'); //导航条
+
+
+        $equipment_bottom.click(function () {
+            $('.Blackcurtain').slideDown(600);
+            $('.img').show(600);
+            $('.xx').fadeIn(600);
+        });
+
+        $('.xx').click(function () {
+            $('.Blackcurtain').slideUp(600);
+            $('.img').hide(600);
+            $('.xx').fadeOut(600);
+            $('.zongding').hide(600);
+        });
+
+
+        Approach[0] = function () {
+            $homepage_center.animate({'top': 35 + '%', 'opacity': 1}, 1200, function () {
+                $homepage_top.animate({'opacity': 1}, 400)
+            });
+            $fixed.animate({'opacity': 0}, 450);
+            $fixed2.animate({'right': -150 + 'px'}, 450);
+        };
+
+        Approach[1] = function () {
+            $fixed.animate({'opacity': 1}, 600);
+            $fixed2.animate({'right': 0 + 'px'}, 600);
+            $Herotopli.eq(0).animate({'top': 30, 'opacity': 1}, 400, function () {
+                $Herotopli.eq(1).animate({'top': 30, 'opacity': 1}, 400, function () {
+                    $Hero__center.animate({'opacity': 1}, 600);
+                    $Herotopli.eq(2).animate({'top': 30, 'opacity': 1}, 400);
+                });
+            });
+        };
+
+        Approach[2] = function () {
+            $fixed.animate({'opacity': 1}, 600);
+            $fixed2.animate({'right': 0 + 'px'}, 600);
+            $equipmenth2.animate({'top': 50, 'opacity': 1}, 600);
+            $equipmentcenter.animate({'left': 50 + '%', 'opacity': 1}, 600);
+            $equipment_bottom.animate({'bottom': 120, 'opacity': 1}, 600);
+        };
+        Approach[3] = function () {
+            $fixed.animate({'opacity': 1}, 600);
+            $fixed2.animate({'right': 0 + 'px'}, 600);
+            $Fetters.animate({'top': 50, 'opacity': 1}, 400);
+            $Fetterscenter.animate({'top': 200, 'opacity': 1}, 400);
+        };
+        Approach[4] = function () {
+            $fixed.animate({'opacity': 1}, 600);
+            $fixed2.animate({'right': 0 + 'px'}, 600);
+
+            $zrh2.animate({'opacity':1,'left':50+'%'},600,function () {
+                $zrcnter.animate({'opacity':1,'left':50+'%'},600)
+            });
+        };
+
+
+        End[0] = function () {
+            $homepage_center.animate({'opacity': 0}, 500);
+        };
+
+
+        Approach[0]();
+
+        $top_li.click(function () {
+            if ($box_center.is(':animated')) return;
+            let index = $(this).index() + 1;
+            var index1 = idx;
+            idx = index;
+
+            if (typeof End[index1] == "function") {
+                End[index1]();
+            }
+            if (idx > 0) {
+                $fidexqe.animate({'top': idx * 60}, 800);
+                var timer = setTimeout(function () {
+                    $('#fixed-text li').eq(idx).addClass('on').siblings().removeClass('on');
+                }, 400);
+            }
+            $box_center.animate({'top': -100 * index + '%'}, 800, function () {
+                if (typeof Approach[index] == "function") {
+                    Approach[index]();
+                }
+            });
+        });
+        $fidexli.click(function () {
+            if ($box_center.is(':animated')) return;
+            let index = $(this).index();
+            var index1 = idx;
+            idx = index;
+
+            if (typeof End[index1] == "function") {
+                End[index1]();
+            }
+            if (idx > 0) {
+                $fidexqe.animate({'top': idx * 60}, 800);
+                var timer = setTimeout(function () {
+                    $('#fixed-text li').eq(idx).addClass('on').siblings().removeClass('on');
+                }, 400);
+            }
+            $box_center.animate({'top': -100 * index + '%'}, 800, function () {
+                if (typeof Approach[index] == "function") {
+                    Approach[index]();
+                }
+            });
+        });
+        $(document).mousewheel(function (event) {
+
+            if ($box_center.is(':animated')) return;
+            var index1 = idx;
+
+            idx -= event.deltaY;
+
+            if (idx < 0) {
+                idx = 0;
+            } else if (idx > 4) {
+                idx = 4;
+            }
+
+            if (index1 != idx) {
+
+                if (typeof End[index1] == "function") {
+                    End[index1]();
+                }
+
+                $fidexqe.animate({'top': idx * 60}, 800);
+                var timer = setTimeout(function () {
+                    $('#fixed-text li').eq(idx).addClass('on').siblings().removeClass('on');
+                }, 400);
+
+                $box_center.animate({'top': -100 * idx + '%'}, 800, function () {
+                    if (typeof Approach[idx] == "function") {
+                        Approach[idx]();
+                    }
+                });
+            }
+
+        });
+    }
+
+
+</script>
+<script>
+    var $top_ul_li = $('#top ul li');  //nav 导航条效果
+
+    $top_ul_li.mouseenter(function () {
+        $(this).stop().find('span').fadeIn(300);
+    });
+    $top_ul_li.mouseleave(function () {
+        $(this).stop().find('span').fadeOut(100);
+    });
+
+
+    var $window = $('.Accessory-window');  // window窗口关闭
+    var $window_x = $('.Accessory-window .esc');
+    $window_x.click(function () {
+        $window.slideUp(500);
+    });
+
+    var $fixed_text = $('#fixed-text .special'); // window 窗口开启
+    $fixed_text.click(function () {
+        $window.show(400);
+    });
+
+
+</script>
+<script>
+
+    var $zr_center = $('#zr .zr_c');
+
+    function f(index) {
+        var zrHero = [];
+        for (var i = 0; i < Hero.length; i++) {
+            for (var j = 0; j < zr_array[index].HeroS.length; j++) {
+                if (Hero[i].HeroName == zr_array[index].HeroS[j].Hero) {
+                    zrHero.push(Hero[i]);
+                    break;
+                }
+            }
+        }
+
+        $zr_center.append(function () {
+            var array = [
+                '<li class="click">',
+                '<div class="zhongy">',
+                '<span class="title">' + zr_array[index].zr_Name + '</span>',
+                '<ul>',
+                Dom_array(index),
+                '</ul>',
+                '<img class="chakan" src="images/icon/chankan.png">',
+                '</div>',
+                '</li>',
+            ].join(' ');
+            return array;
+        });
+
+        function Dom_array(index) {
+            var array = [];
+            var str;
+            for (var i = 0; i < zrHero.length; i++) {
+                array[i] = [
+                    '<li>',
+                    '<img  src= ' + zrHero[i].HIA + '>',
+                    core(index),
+                    '<span>' + zrHero[i].Heroicpainting + '</span>',
+                    '</li>',
+                ];
+            }
+            str = array.join('');
+            for (var i = 0; i < str.length; i++) {
+                str = str.replace(',', ' ');
+            }
+            return str;
+
+            function core(index) {
+                var z;
+                for (var j = 0; j < zr_array[index].HeroS.length; j++) {
+                    if (zr_array[index].HeroS[j].core == true) {
+                        z += (zr_array[index].HeroS[j].Hero);
+                    }
+                }
+
+                if (z.indexOf(zrHero[i].HeroName) != -1) {
+                    return '<img class="xhg" src="images/icon/xhg.png">'
+                }
+            }
+        }
+    }
+
+
+    function f1() {
+        var $click = $('#zr .chakan');
+        $click.click(function () {
+            var zrHero = [];
+            var index = $(this).parent().parent().index();
+            var $zongding = $('.zongding');
+            
+            $('.Blackcurtain').slideDown(600);
+            $zongding.show(600);
+            $('.xx').fadeIn(600);
+
+
+            for (var i = 0; i < Hero.length; i++) {
+                for (var j = 0; j < zr_array[index].HeroS.length; j++) {
+                    if (Hero[i].HeroName == zr_array[index].HeroS[j].Hero) {
+                        zrHero.push(Hero[i]);
+                        break;
+                    }
+                }
+            }
+            $zongding.html(function () {
+                var array = [
+                    '<h2>' + zr_array[index].zr_Name + '</h2>',
+                    '<span class="title" >' + zr_array[index].jb_Name + '</span>',
+                    '<div class="center">',
+                    '<span class="title2">玩法特点:</span>',
+                    '<span class="span">' + zr_array[index].wftd + '</span>',
+                    '<span class="title2">最终阵容:</span>',
+                    '<ul>',
+                    Dom_array(index),
+                    '</ul>',
+                    '<span class="title2">前期要点:</span>',
+                    '<span class="span">' + zr_array[index].qianqitext + '</span>',
+                    '<span class="title2">前期必备英雄</span>',
+                    '<ul>',
+                    Dom_array1(index),
+                    '</ul>',
+                    '<span class="title2">中期要点:</span>',
+                    '<span class="span">' + zr_array[index].zhoqitext + '</span>',
+                    '<span class="title2">中期必备英雄</span>',
+                    '<ul>',
+                    Dom_array2(index),
+                    '</ul>',
+                    '</div>',
+                ].join('');
+                return array;
+            });
+
+            function Dom_array(index) {
+                var array = [];
+                var str;
+                for (var i = 0; i < zrHero.length; i++) {
+                    array[i] = [
+                        '<li>',
+                        '<img  src= ' + zrHero[i].HIA + '>',
+                        core(index),
+                        '<span>' + zrHero[i].Heroicpainting + '</span>',
+                        '</li>',
+                    ];
+                }
+                str = array.join('');
+                for (var i = 0; i < str.length; i++) {
+                    str = str.replace(',', ' ');
+                }
+                return str;
+
+                function core(index) {
+                    var z;
+                    for (var j = 0; j < zr_array[index].HeroS.length; j++) {
+                        if (zr_array[index].HeroS[j].core == true) {
+                            z += (zr_array[index].HeroS[j].Hero);
+                        }
+                    }
+
+                    if (z.indexOf(zrHero[i].HeroName) != -1) {
+                        return '<img class="xhg" src="images/icon/xhg.png">'
+                    }
+                }
+            }
+
+            function Dom_array1(index) {
+                var zrHero = [];
+                for (var i = 0; i < Hero.length; i++) {
+                    for (var j = 0; j < zr_array[index].qianqi.length; j++) {
+                        if (Hero[i].HeroName == zr_array[index].qianqi[j]) {
+                            zrHero.push(Hero[i]);
+                            break;
+                        }
+                    }
+                }
+
+                var array = [];
+                var str;
+                for (var i = 0; i < zrHero.length; i++) {
+                    array[i] = [
+                        '<li>',
+                        '<img  src= ' + zrHero[i].HIA + '>',
+                        core(index),
+                        '<span>' + zrHero[i].Heroicpainting + '</span>',
+                        '</li>',
+                    ];
+                }
+                str = array.join('');
+                for (var i = 0; i < str.length; i++) {
+                    str = str.replace(',', ' ');
+                }
+                return str;
+
+                function core(index) {
+                    var z;
+                    for (var j = 0; j < zr_array[index].HeroS.length; j++) {
+                        if (zr_array[index].HeroS[j].core == true) {
+                            z += (zr_array[index].HeroS[j].Hero);
+                        }
+                    }
+
+                    if (z.indexOf(zrHero[i].HeroName) != -1) {
+                        return '<img class="xhg" src="images/icon/xhg.png">'
+                    }
+                }
+            }
+            function Dom_array2(index) {
+                var zrHero = [];
+                for (var i = 0; i < Hero.length; i++) {
+                    for (var j = 0; j < zr_array[index].zhoqi.length; j++) {
+                        if (Hero[i].HeroName == zr_array[index].zhoqi[j]) {
+                            zrHero.push(Hero[i]);
+                            break;
+                        }
+                    }
+                }
+
+                var array = [];
+                var str;
+                for (var i = 0; i < zrHero.length; i++) {
+                    array[i] = [
+                        '<li>',
+                        '<img  src= ' + zrHero[i].HIA + '>',
+                        core(index),
+                        '<span>' + zrHero[i].Heroicpainting + '</span>',
+                        '</li>',
+                    ];
+                }
+                str = array.join('');
+                for (var i = 0; i < str.length; i++) {
+                    str = str.replace(',', ' ');
+                }
+                return str;
+
+                function core(index) {
+                    var z;
+                    for (var j = 0; j < zr_array[index].HeroS.length; j++) {
+                        if (zr_array[index].HeroS[j].core == true) {
+                            z += (zr_array[index].HeroS[j].Hero);
+                        }
+                    }
+
+                    if (z.indexOf(zrHero[i].HeroName) != -1) {
+                        return '<img class="xhg" src="images/icon/xhg.png">'
+                    }
+                }
+            }
+
+
+        })
+
+        
+    }
+
+    for (var i = 0; i < zr_array.length; i++) {
+        f(i);
+    }
+    f1();
+
+</script>
+<script>
+    var $zr_xs=$('#zr .xs');
+    var $zr_scroll=$('#zr .scroll');
+    var $zr_bar=$('#zr .bar');
+    var $zr_center=$('#zr .zr_c');
+
+    var rect=$zr_scroll.outerHeight()/$zr_center.outerHeight();
+    $zr_bar.css('height',rect*$zr_scroll.outerHeight());
+
+    $zr_bar.draggable({
+        'axis':'y',
+        'containment': "parent",
+        drag: function( event, ui ) {
+            y=ui.position.top;
+            $zr_center.css('top',-y/rect);
+        }
+    })
+</script>
+</html>
